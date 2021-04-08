@@ -7,7 +7,7 @@ bash scripts/setup.sh
 
 2. Run training
 ```
-sudo dvc repro reproduce_{task_1 | task_2}_{cbow | bert | roberta}
+sudo dvc repro reproduce_table_{task_1 | task_2}_{cbow | bert | roberta}
 ```
 
 3. Add credentials to environment variables

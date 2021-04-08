@@ -22,7 +22,7 @@ sudo apt update
 sudo apt install dvc
 
 # cloning repos
-git clone https://github.com/sirius-yandex-nlp-team/laughing_net.git ~
+git clone https://github.com/sirius-yandex-nlp-team/laughing_net.git ~/laughing_net
 cd ~/laughing_net
 git checkout TASK-6
 git submodule update --init
