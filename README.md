@@ -1,6 +1,20 @@
 # devops
 
+1. Install evironment
 ```
-bash scripts/setup-docker.sh
-sudo dvc repro reproduce_{task_1_cbow/task_1_bert/task_1_roberta/task_2_cbow/task_2_bert/task_2_roberta}
+bash scripts/setup.sh
+```
+
+2. Run training
+```
+sudo dvc repro reproduce_{task_1 | task_2}_{cbow | bert | roberta}
+```
+
+3. Add credentials to environment variables
+4. Submit results
+```
+dvc push
+git add .
+git commit -m "Example results"
+git push
 ```
